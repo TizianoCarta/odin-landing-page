@@ -4,47 +4,120 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Buesummo Webpage</title>
+    <link href = "style.css" rel = "stylesheet">          <!-- nota: link di relzione con css file -->
+    <title>Büsummo an der Möwesea</title>
 </head>
+
 <body>
  
 <div class="headbar">
+  <div class="logo">
+    
+    <div class="webpage_logo"> 
+         <img src="resources/webpage_logo(2).png"> </div>
 
-     <div class="webpage_logo">
-      <img src="resources/webpage_logo.png">   
-     </div>
-     
-    <div class="navbar">        <!-- link per navigazione: ABOUT, FAQ  e selettore lingua-->
-
+    <div class="webpage_name"> <h1>Büsummo an der Möwesea</h1> </div>
+  </div>
+   
+    <div class="navbar">        
+      <a href="#"> About </a>      <!-- inserire link a posizione pagina!-->
+      <a href="#" style="margin-left:25px"> FAQ </a>          <!-- inserire link a posizione pagina!-->
+      <div id="flag">     
+         <img src="resources/engflag.png" width="60" height="40" style="margin-left: 30px;margin-right: 35px";> </div>
+    </div>      <!-- traduce pagina in  E-->
+    
     </div>
 </div>
     
-
-
-
 <div class="welcome">
-
+       <div class="background"> 
+            <video id="background" muted="" autoplay="" loop=""> t
+               <source src="resources/busummo.mp4" type="video/mp4">
+            </video>   
+       </div>
+       <div class="welcome_box">
+             <div class="welcome_box_1eft">
+                <div class="greetings"> Welcome to Büsummo! </div>
+                <div class="description">
+                 Simply the lovelyest town of the nord coast, renomated seagull spa and home of the best garnile bruchen ever. <br><br> Why don't you come and visit?
+                </div>
+                <div class="come_container"> 
+                  <div class="come_and">
+                  <a class="come" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Join the party!</a>
+                  </div>
+                </div>  
+             </div>
+            
+             <div class="welcome_box_right">
+                <img class="welcome" src="resources/welcome.jpg" width="400" height="260">
+                <div class="welcome_box_caption">  Cool beans waiting for you ;)</div>
+             </div>
+       </div>
 </div>
-
-
-
 
 <div class="offer">
-
+        
+            <div class="content_head">
+                Our wonderful offer
+            </div>
+            <div class="offer_container">
+                <div class="seagul_container">
+                    <a class="link_offer" href="https://www.youtube.com/watch?v=fiJyui4nZww&t=0s"  target="_blank"><img class="seagull" src="resources/seagul.jpg"></a>
+                    <div class="seagul_text">Friendly Seaguls!</div>
+                </div>
+                <div class="oldpeople_container">
+                    <a class="link_offer" href="https://www.youtube.com/watch?v=SywExJR4lrI"  target="_blank"><img class="oldpeople" src="resources/old.gif"></a>
+                    <div class="people_text">Old People!</div>
+                </div>
+                <div class="shrimp_container">
+                    <a class="link_offer" href="https://www.youtube.com/watch?v=rY-FJvRqK0E"  target="_blank"><img class="shrimp" src="resources/shrimp.jpg"></img></a>
+                    <div class="shrimp_text">Tons of Shrimps!</div>
+                </div>
+                <div class="mud_container">
+                    <a class="link_offer" href="https://www.youtube.com/watch?v=QUJgb3ngSss#t=2m28s"  target="_blank"><img class="mud" src="resources/mud.jpg"></a>
+                    <div class="mud_text">Puddles of Mud!</div>
+                </div>
+                <div class="knaipe_container">
+                    <a class="link_offer" href="https://www.youtube.com/watch?v=V-B0z3AbLbs#t=1m09s"  target="_blank"><img class="knaipe" src="resources/knaipe.jpg"></a>
+                    <div class="knaipe_text"> Cozy Kneipe!</div>
+                </div>
+            </div>
 </div>
 
-
-
-
 <div class="quote">
-
+    
+        <div class="quote_container">
+            <div class="quote_left">
+              <div class="quote_text">
+                "Moin Moin, Motherfucker" 
+                <div class="quote_from"> - Samuel L. Jackson on Büsummo</div>
+              </div>
+            </div>
+            <div class="quote_right">  
+                 <img class="quote_img" src="resources/jackson.jpg" width="300" height="260">
+            </div>
+        </div>
 </div>
 
 
 
 
 <div class="contact">
-
+        <div class="contact_box">
+            <div class="contact_left">
+                <div class="contact_text_left">
+                    Are you sold yet?
+                </div>
+                <div class="contact_subtext_left">
+                    Stop wasting your time!
+                </div>
+            </div>
+            <div class="contact_box_right">
+                <a class="contact_button" href="#">
+                    Come and visit!
+                </a>
+            </div>
+        </div>
 </div>
 
 
@@ -52,7 +125,9 @@
 
 
 <div class="author">
-
+        <a class="footerLayerAuthor" href="https://github.com/TizianoCarta/odin-landing-page" target="_blank">
+            Webpage by: Sharden_Warrior
+    </div>
 </div>
 
 </body>

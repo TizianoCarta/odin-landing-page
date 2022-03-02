@@ -1,0 +1,316 @@
+html {
+    margin: 0;
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', arial;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+    color: white;
+}
+
+.headbar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(105, 14, 14, 0.9);
+    text-decoration: none;
+    position: fixed;
+    top: 0;
+    z-index: 9;
+    box-shadow: 0 0 2em rgb(69 69 69);  
+}
+
+.webpage_name {
+    margin-left: 15px;
+    font-size: 1.2em;
+    color: white;
+    text-shadow: 0 0 0.8em rgb(255 255 255);
+    text-align: center;
+    font-family: "kawashiro"; 
+}
+
+
+.headbar div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar {
+    padding: 20px;
+    font-size: 1.9em;
+    text-align: center;
+    color: white;
+    margin: 0.5em 0em 0em;
+    font-family: "kamishirasawa";
+}
+
+#background {   
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    z-index: -2;
+}
+
+.welcome_box {
+    width: 60%;
+    height: 100%;
+    border-radius: 5em;
+    margin: 15em auto 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0 2em rgb(69 69 69);  
+}
+
+.welcome_box_1eft, .quote_left {
+    color: white;
+    margin: 3em 2em 3em 5em;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.greetings {
+    font-size: 2em;
+    text-shadow: 0 0 0.8em rgb(255 255 255);
+    text-align: center;
+    font-family: "kawashiro";
+}
+
+.description {
+        margin-top: 1em;
+        font-size: 1.1em;
+        line-height: 1.4em;
+        text-align: center
+}
+
+.come_container {
+    margin-top: 3em;
+}
+
+.come_and {
+    color: white;
+    border: 0.2em solid white;
+    border-radius: 2em;
+    width: 10em;
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 1.2em;
+    text-decoration: none;
+    background-image: linear-gradient(rgba(250, 0, 0, 0.5), rgba(107, 39, 0, 0.5));
+    transition: 0.3s;
+    font-family: "kawashiro";
+}
+
+.welcome_box_right, .quote_right {
+    width: 50vw;
+    margin: 3em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;   
+}
+
+.welcome_box_caption {
+    margin-top: 1em;
+    font-size: 1.4em;
+    text-shadow: 0 0 0.8em rgb(255 255 255);
+    text-align: center;
+    font-family: "kawashiro";
+}
+
+.offer {
+    display: block;   
+    background-image: linear-gradient(rgb(105, 14, 14),rgb(56, 9, 9));
+    margin-top: 12em;
+}
+
+.content_head {
+    padding-top: 0.5em;
+    font-size: 3em;
+    text-align: center;
+    color: white;
+    margin: 0.5em 1em 1em;
+    font-family: "kamishirasawa";
+}
+
+.offer_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 2.5em;
+    flex-wrap: wrap;
+}
+
+
+.seagul_container .oldpeople_container .shrimp_container .mud_container .knaipe_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 0px;
+}
+
+.seagull, .oldpeople, .shrimp, .mud, .knaipe {
+    width: 14em;
+    height: 14em;
+    object-fit: cover;
+    border: 0.3em solid rgb(255, 255, 255);
+    border-radius: 1.5em;
+    box-shadow: 0 10px 30px black;
+    transition: 0.3s;
+    margin: -0.5em -1em -1em -1em;
+}
+
+.seagul_text, .people_text, .shrimp_text, .mud_text, .knaipe_text {
+    text-align: center;
+    color: white;
+    font-size: 1.7em;
+    margin: 1em 0 1em 0;
+    font-family: "lunatic";
+    z-index: 2;
+}
+
+
+.quote{
+    background-image: url(resources/buesum1.jpg);
+    background-size: cover;
+    object-fit: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    align-content: stretch;
+}
+
+
+.quote_container {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0 2em rgb(69 69 69);  
+    color: rgba(250, 0, 0, 0.5), rgba(107, 39, 0, 0.5);
+    border-radius: 1em;
+    font-family: "hakugyokurou";
+    letter-spacing: 0.1em;
+    margin: 19em 0;
+  
+}
+
+.quote_text{
+    font-size: 4em;
+    text-align: center;
+    font-style: italic;
+    color: white;
+    font-size: 3 px;
+   
+}
+
+.quote_from {
+    margin-top: 0.8em;
+    text-align: right;
+    font-family: "kawashiro";
+    font-size: 0.4em;
+}
+
+.contact {
+    background-image: linear-gradient(rgb(105, 14, 14),rgb(56, 9, 9));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2.5em 0;
+}
+
+.contact_box {
+    background: rgb(32, 32, 32);
+    width: 60em;
+    padding: 2em 0;
+    border-radius: 0.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0 2em;
+}
+
+.contact_box_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    padding: 0 2em 0 4em;
+    line-height: 1.3em;
+}
+
+.contact_text_left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    padding: 0 2em 0 4em;
+    line-height: 1.3em;
+    font-size: 2em;
+    font-family: "sunflower";
+    font-weight: bold;
+}
+
+.contact_subtext_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    padding: 0 2em 0 4em;
+    line-height: 1.3em;
+}
+
+.contact_box_right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5em 0 3em;
+}
+
+.contact_button{
+    border: 0.15em solid white;
+    background-image: linear-gradient(rgba(0, 171, 194, 0.5), rgba(1, 68, 68, 0.5));
+    border-radius: 0.4em;
+    padding: 8px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-family: "kawashiro";
+    
+}
+
+
+.author{
+    background: rgb(19, 25, 41);
+    padding: 1.25em 0;
+    box-shadow: 0 0 1em rgb(0 0 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
